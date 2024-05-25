@@ -17,30 +17,30 @@ This project is a contact management app built with ReactJS, TypeScript, Tailwin
 - Chart.js
 - React-Leaflet
 
-#### Prerequisites
+### Prerequisites
 - Node.js
 - npm
 
-##### Installation
-1. Clone the repository:
+### Installation
+#1. Clone the repository:
 - git clone https://github.com/Sameeksha002/contact-management-app.git
 - cd contact-management-app
   
-2. Install dependencies:
+#2. Install dependencies:
 - npm install
 - npm install tailwindcss@latest postcss@latest autoprefixer@latest
 - npm install @reduxjs/toolkit react-redux react-router-dom@6 react-query axios react-chartjs-2 chart.js leaflet react-leaflet
 
-3. Run the app:
+#3. Run the app:
 - npm start
 
-4. Open your browser and navigate to:
+#4. Open your browser and navigate to:
 - http://localhost:3000
 
-5. To build the app for production:
+#5. To build the app for production:
 - npm run build
 
-###### API Endpoints Used
+### API Endpoints Used
 Worldwide data of cases: https://disease.sh/v3/covid-19/all
 Country-specific data of cases: https://disease.sh/v3/covid-19/countries
 Graph data for cases with date: https://disease.sh/v3/covid-19/historical/all?lastdays=all
